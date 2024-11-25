@@ -1,0 +1,12 @@
+# Node modules
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# SQLite database
+*.sqlite3
