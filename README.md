@@ -92,6 +92,10 @@ cd ../frontend
 ```
 npm install
 ```
+* These below modules need to be installed for the frontend to work propery:
+```
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material react-hook-form @hookform/resolvers yup @mui/x-date-pickers axios dayjs material-react-table react-router-dom
+```  
 3. Start the Vite development server:
 ```
 npm run dev
