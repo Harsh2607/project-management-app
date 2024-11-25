@@ -39,14 +39,14 @@ cd project-management-app
 ### Setup Backend
 
 1. Navigate to the backend directory:
-```
-cd backend
-```
+   ```
+   cd backend
+   ```
 
 2. Create a virtual environment:
-```
-python -m venv venv
-```
+   ```
+   python -m venv venv
+   ```
 
 3. Activate the virtual environment:
 
@@ -63,43 +63,47 @@ python -m venv venv
    ```
 
 4. Install the required packages:
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 
 5. Run migrations to set up the database:
-```
-python manage.py migrate
-```
+   ```
+   python manage.py migrate
+   ```
 
 6. Create a superuser (optional, for accessing the admin panel):
-```
-python manage.py createsuperuser
-```
+   ```
+   python manage.py createsuperuser
+   ```
 
 7. Start the Django server:
-```
-python manage.py runserver
-```
+   ```
+   python manage.py runserver
+   ```
 
 ### Setup Frontend
 
 1. Navigate to the frontend directory:
-```
-cd ../frontend
-```
+   ```
+   cd ../frontend
+   ```
+
 2. Install the required packages:
-```
-npm install
-```
-* These below modules need to be installed for the frontend to work propery:
-```
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material react-hook-form @hookform/resolvers yup @mui/x-date-pickers axios dayjs material-react-table react-router-dom
-```  
+   ```
+   npm install
+   ```
+   
+   * These below modules need to be installed for the frontend to work properly:
+     
+   ```
+   npm install @mui/material @emotion/react @emotion/styled @mui/icons-material react-hook-form @hookform/resolvers yup @mui/x-date-pickers axios dayjs material-react-table react-router-dom
+   ```
+  
 3. Start the Vite development server:
-```
-npm run dev
-```
+   ```
+   npm run dev
+   ```
 
 ## Usage
 
@@ -124,5 +128,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- Thanks to the contributors and the open-source community for their support and resources.
+Thanks to the contributors and the open-source community for their support and resources.
 
